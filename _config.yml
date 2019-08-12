@@ -3,8 +3,8 @@ port: 4444
 title: MGC's resume
 description: Starting w/ a clean minimal Theme for Jekyll
 email: michelcombes@advancementofcivilizationeffort.org
-baseurl: .
-url: "http://netlify.com/michel47" # the base hostname & protocol for your site
+baseurl: ""
+url: "//suspicious-feynman-61c5f8.netlify.com" # the base hostname & protocol for your site
 #favicon
 favicon: favicon.png
 

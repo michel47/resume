@@ -7,4 +7,4 @@ michelc: I intend to use this to test netlify and build
 my personal webpage with my online resume.
 
 
-![ThisIsADemoPhoto](/images/swift.png)
+![ThisIsADemoPhoto](https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5d51402853e5e92ac792c968/screenshot.png)
