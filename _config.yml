@@ -1,0 +1,52 @@
+# Site settings
+port: 4444
+title: Swift
+description: A clean minimal Theme for Jekyll
+email: michelcombes@advancementofcivilizationeffort.org
+baseurl: .
+url: "http://netlify.com/michel47" # the base hostname & protocol for your site
+#favicon
+favicon: favicon.png
+
+#feed
+feedburner_username: mgcombes
+#twitter
+twitter_username: michel_C
+github_username:  michel47
+
+#linkedin
+linkedin_username: mgcombes
+
+#google analytics
+#google_analytics_id : UA-53386152-2
+#gplus
+#gplus_username: 101893920934936418705
+
+#fb_username
+fb_username: mgcombs
+
+#permalink /blog/2014/11/11/this-is-a-sample-post
+permalink: blog/:year/:month/:day/:title.html
+# Build settings
+markdown: kramdown
+
+#Disqus configuration
+disqus_short_name: michelc
+disqus_show_comment_count: true
+
+#Can be used for multiple author blogs ! Add name to post For more visit the sample
+authors:
+  michelc:
+    display_name: Michel C.
+    email: michelcombes@advancementofcivilizationeffort.org
+    fb: mgcombs
+    linkedin: mgcombes
+    twitter: michel_c
+    github: michel47
+  pranavrajs:
+    display_name: Pranav Raj S
+    email: pranavrajs@gmail.com
+    fb: pranav.tayberrycreative
+    linkedin: pranavrajs
+    twitter: pranavrajs
+    github: pranavrajs
