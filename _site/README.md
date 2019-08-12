@@ -3,7 +3,7 @@
 
 this is where the site will be built
 
- (with the cli : <code>jekyll build</code> )
+ (with the cli : <code>bundle exec jekyll build</code> )
 
 
 +Michel
