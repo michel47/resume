@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Example"
+site.baseurl: /
 date:   2014-09-09 22:37:00 +05:30
 categories: example
 author: pranavrajs
