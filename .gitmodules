@@ -1,6 +1,8 @@
 [submodule "mgcombes.ml"]
 	path = mgcombes.ml
-	url = git@michel47.github.com:michel47/resumecard.git
+	#url = git@michel47.github.com:michel47/resumecard.git
+	url = https://github.com/michel47/resumecard.git
 [submodule "michelc.tk"]
 	path = michelc.tk
-	url = git@michel47.github.com:michel47/violet.git
+	#url = git@michel47.github.com:michel47/violet.git
+	url = https://github.com/michel47/violet.git
