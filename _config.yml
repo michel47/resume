@@ -9,7 +9,7 @@ url: "//suspicious-feynman-61c5f8.netlify.com" # the base hostname & protocol fo
 favicon: favicon.png
 
 #feed
-feedburner_username: mgcombes
+feedburner_username: NewsFromGradual
 #twitter
 twitter_username: michel_C
 github_username:  michel47
@@ -50,3 +50,6 @@ authors:
     linkedin: pranavrajs
     twitter: pranavrajs
     github: pranavrajs
+
+
+exclude: [README.md, michelc, Gemfile, Gemfile.lock, _site, Rakefile, travis.sh, vendor]
