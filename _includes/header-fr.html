@@ -1,0 +1,25 @@
+<div class="header">
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="col-sm-5">
+                <img class=photo src="{{ site.photo | prepend: site.baseurl }}" title="photo" alt="Photo">
+                <h4>{{ site.author.name }}</h4>
+                <p>{{ site.author.title.fr }}</p>
+                <p class="muted">{{ site.author.address }}</p>
+                <p><i class="fa fa-phone fa-fw"></i> {{ site.author.phone }}</p>
+                <div class="clearfix"></div>
+            </div>
+            <div class="col-sm-4 visible-md-block visible-lg-block visible-sm-block">
+                <p><i class="fa fa-envelope-o fa-fw"></i> {{ site.author.email }} </p>
+                <p><i class="fa fa-github fa-fw"></i><a href="//gist.github.com/{{ site.author.github }}" target="_blank">  @{{ site.author.github }} </a></p>
+                <p><i class="fa fa-linkedin-square fa-fw"></i> <a href="//linkedin.com/in/{{ site.author.linkedin }}" target="_blank"> linkedin.com/in/{{ site.author.linkedin }} </a></p>
+                <p><i class="fa fa-twitter fa-fw"></i> <a href="//twitter.com/{{ site.author.twitter }}" target="_blank">  @{{ site.author.twitter }} </a></p>
+            </div>
+            <div class="col-sm-3 visible-md-block visible-lg-block">
+                <a href="{{ site.data.cv-fr.pdf }}" class="btn btn-dark"><i class="icon-file icon-white"></i> Download.pdf </a>
+<br><a href=index-fr.html><img class=flag alt="ch-flag" height=32 src="{{ 'assets/img/ch_circ.png' | prepend: site.baseurl }}"></a>
+<a href=index-en.html><img class=flag alt="uk-flag" height=32 src="{{ 'assets/img/uk_circ.png' | prepend: site.baseurl }}"></a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,13 +1,21 @@
 .blog-theme-class {
+
   margin-top:0.3%;
   padding:3%;
-  background:#008cba;
+  background: $brand-color2;
   .jumb-bot {
-    background:#008cba;
+  background:$brand-color$brand-color2;
+  opacity: 1.0;
     
   }
   .jumbotron{
-    background:#008cba;
+    background:$brand-color1;
+
+  background-image: URL("https://cdn.statically.io/img/gateway.ipfs.io/ipfs/uAXAANRIvChgBcBEUpSrSKUvJvwc0Hj-VGuOOI340mwkSD3R3aXJsY2xvdWRzLmpwZxi70g8KAggB/twirlclouds.jpg");
+  background-attachment: fixed;
+  background-size: 100% 300px;
+  background-repeat: no-repeat;
+
     h1 {
       color :#fff;
     }
@@ -17,7 +25,7 @@
   }
 }
 .blog-post-small {
-  border-bottom: #008CBA 1px dashed;
+  border-bottom: $brand-color3 1px dashed;
   text-align: justify;
   padding: 10px;
   p {

@@ -15,7 +15,27 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
+
 $brand-color:      #2a7ae2;
+$brand-color:     #008cba;
+$border-color:    #0079a1;
+$active-color:    #006687;
+
+$brand-color-opaque:  rgb(50,28,34);
+$brand-color:      rgba(40,18,24,0.8);
+$brand-color1:      rgba(76,1,2,0.1);
+$brand-color2:      rgba(40,18,24,0.8);
+$brand-color3:      red;
+$brand-color-btn:   rgba(106,28,34,1);
+
+$border-color:    #692f3f;
+$active-color:    #6e4029;
+$hover-color:    red;
+
+/* 
+i { background-color: orange; }
+.fb_share,.twitter_share,.linkedin_share,.g_share { background-color: $brand-color; }
+*/
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);

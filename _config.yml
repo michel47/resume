@@ -1,10 +1,11 @@
 # Site settings
 port: 4444
-title: MGC's resume
+title: Michel G. Combes, ... 
 description: Starting w/ a clean minimal Theme for Jekyll
 email: michelcombes@advancementofcivilizationeffort.org
 baseurl: ""
 url: "//suspicious-feynman-61c5f8.netlify.com" # the base hostname & protocol for your site
+url: "//monCV.gq" # the base hostname & protocol for your site
 #favicon
 favicon: favicon.png
 
@@ -52,4 +53,12 @@ authors:
     github: pranavrajs
 
 
-exclude: [README.md, michelc, Gemfile, Gemfile.lock, _site, Rakefile, travis.sh, vendor]
+exclude: 
+ - .org
+ - _site
+ - README.md
+ - Gemfile
+ - Gemfile.lock
+ - Rakefile
+ - travis.sh
+ - vendor
